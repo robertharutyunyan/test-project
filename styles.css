@@ -1,0 +1,33 @@
+p{
+  
+    color: royalblue;
+  font-size: 200px;
+  transform: rotate(45deg);
+margin-left: 150px;
+font-weight: bold;
+margin-top: 150px;
+font-style: italic;
+
+
+}
+p::before{
+    content: "hello ";
+    color: red;
+    font-size: 200px;
+}
+p::after{
+    content:" papa";
+    color: sandybrown;
+    font-size: 200px;
+}
+.midiv{
+width: 100%;
+height: 100%;
+background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/272710357_694525838580072_6796675988505218083_n.jpg?stp=dst-jpg_p206x206&_nc_cat=101&ccb=1-5&_nc_sid=aee45a&_nc_ohc=DllohYjID8oAX_0hGMd&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVI-K8Hoe3KhjoEu89IGctgt6C09kkO2kqg_hpB6OvyjwA&oe=62441CE9);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+*{
+    margin-top: 0px;
+}*
